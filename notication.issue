@@ -1,0 +1,20 @@
+He
+{{doc.customer}},<br> 
+ {{doc.name}} {{doc.subject}},<br>
+Thank you for reaching out to us. We are working on your ticket VIPL-03-Audust-2023-0002 {{doc.description}}
+
+<center><div><img height="70" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Tally_-_Logo.png" width="300"></div></center>
+
+
+If there is anything else you need help with, feel free to reply to this email or call us at 7447443528/7447453523 . We will be happy to help.<b><br>
+
+<br>Best Regards,<br>
+{{frappe.db.get_value('User',{'name':frappe.session.user},'full_name')}}<br> 
+Vrushali Infotech Pvt Ltd<br>
+
+Tally Authorized Service Center and Partner <br>
+
+Address: Ananda Niwas Shivshankar Colony No.2 <br>
+
+Chakrapani Road, Bhosari. 411039<br>
+
